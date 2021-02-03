@@ -12,3 +12,4 @@ Examples:
 |#{generate(regexify '[a-z]{3}[A-Z]{2}[a-z]{6}')}|
 |#{generate(regexify '[a-z]{3}[A-Z]{2}[a-z]{6}')}|
 |#{generate(regexify '[a-z]{3}[A-Z]{2}[a-z]{6}')}|
+
