@@ -1,6 +1,7 @@
 Description: task 2
 
 GivenStories: task2/trelloSignUpNested.story
+!-- signing up of a new user scenario can not be ended due to the captcha
 
 Scenario: Trello sign in as existing user
 Given I am on the main application page

@@ -7,7 +7,7 @@ When I click on element located `By.Xpath(//button[@type="submit"])`
 When I enter `<name>` in field located `By.Xpath(//input[@id="displayName"])`
 When I enter `<password>` in field located `By.Xpath(//input[@id="password"])`
 When I click on element located `By.Xpath(//button[@id="signup-submit"])`
-
+!-- signing up of a new user scenario can not be ended due to the captcha
 Examples:
 |email|name|password|
 |#{generate(Internet.safeEmailAddress)}|Elon Musk|#{generate(regexify '[a-z]{3}[A-Z]{2}[a-z]{3}')}|
